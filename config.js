@@ -1,8 +1,8 @@
 module.exports = {
   // your community or team name to display on join page.
-  community: process.env.COMMUNITY_NAME || 'COMMUNITY_NAME ',
+  community: process.env.COMMUNITY_NAME || 'COMMUNITY_NAME',
   // your slack team url (ex: socketio.slack.com)
-  slackUrl: process.env.SLACK_URL || 'COMMUNITY_NAME .slack.com',
+  slackUrl: process.env.SLACK_URL || 'COMMUNITY_NAME.slack.com',
   // access token of slack
   // see https://github.com/outsideris/slack-invite-automation#issue-token
   //
