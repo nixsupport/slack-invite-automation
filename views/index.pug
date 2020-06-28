@@ -20,8 +20,9 @@ html
               if tokenRequired
                 input(type="text", name="token", placeholder=__('ENTER_TOKEN'))#slack-token.field
               input(type="submit", value="Submit").submit
-              p Are you already part of our community?
-              a(href="https://cloudprodigy.slack.com") Go here!
+              p 
+                | Are you already part of our community?
+                | a(href="https://cloudprodigy.slack.com") Click here!
               if !!recaptchaSiteKey
                 div(class="g-recaptcha", data-sitekey=recaptchaSiteKey)
     if !!recaptchaSiteKey
